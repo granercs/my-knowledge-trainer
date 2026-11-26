@@ -1,4 +1,4 @@
-const CACHE = 'mkt-offline-v2';
+const CACHE = 'mkt-offline-v4';
 const ROOT = new URL('./', self.location.href).href;
 const ASSETS = ['index.html','icon-192.png','icon-512.png','manifest.webmanifest'].map(p => new URL(p, ROOT).href);
 self.addEventListener('install', event => {
